@@ -17,11 +17,11 @@ export class NavbarComponent {
   constructor(private router: Router, public auth: Auth) {}
 
   handleClickGoToHome() {
-    this.router.navigate(['home']);
+    this.router.navigate(['driver/add']);
   }
 
   handleClickGoToChat() {
-    this.router.navigate(['chat']);
+    this.router.navigate(['drivers']);
   }
 
   handleClickGoToAboutMe() {

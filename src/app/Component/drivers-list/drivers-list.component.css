@@ -1,18 +1,20 @@
 .container {
   display: flex;
   flex-direction: column;
-  height: 90vh; 
+  height: 90vh;
+  background-color: beige;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .list-container {
-  flex: 1; 
+  flex: 1;
   flex-direction: column;
   overflow-y: auto;
-  border-bottom: 1px solid #ccc; 
+  border-bottom: 1px solid #ccc;
   display: flex;
-  justify-content: center; 
-  align-items: center; 
-  background-color: beige;
+  justify-content: center;
+  align-items: center;
 }
 
 .list-container ul {
@@ -27,22 +29,21 @@
 
 .driver-list {
   list-style: none;
-  padding: 10px;
 }
 
 .driver-list li {
   padding: 10px;
   margin-bottom: 5px;
   background-color: #947a7a;
-  border-radius: 5px; 
+  border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
   text-align: center;
-  width: 500;
+  width: 150px;
 }
 
 .driver-list li:hover {
-  background-color: #e0e0e0; 
+  background-color: #e0e0e0;
 }
 .details-container {
   display: flex;
@@ -51,7 +52,7 @@
 
 .left-details,
 .right-details {
-  flex: 1; 
+  flex: 1;
   padding: 10px;
 }
 
