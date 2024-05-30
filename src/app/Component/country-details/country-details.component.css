@@ -1,0 +1,22 @@
+.right-details {
+  padding: 20px;
+}
+
+.right-details h2 {
+  margin-bottom: 10px;
+}
+
+.country-info {
+  display: flex;
+  align-items: flex-end;
+}
+
+.country-flag {
+  width: 50px;
+  height: auto; 
+  margin-right: 10px; 
+}
+
+.country-name {
+  font-size: 16px;
+}

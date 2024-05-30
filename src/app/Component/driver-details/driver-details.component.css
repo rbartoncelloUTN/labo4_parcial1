@@ -1,0 +1,22 @@
+.left-details {
+  padding: 20px;
+}
+
+.left-details h2 {
+  margin-bottom: 10px;
+}
+
+.left-details table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.left-details table td {
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.left-details table td:first-child {
+  width: 120px;
+  font-weight: bold;
+}
