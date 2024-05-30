@@ -4,6 +4,9 @@ import { WelcomeComponent } from './Component/welcome/welcome.component';
 import { DriverComponent } from './Component/driver/driver.component';
 import { authGuard } from './guards/auth-guard.guard';
 import { DriversListComponent } from './Component/drivers-list/drivers-list.component';
+import { IcecreamAddComponent } from './Component/icecream-add/icecream-add.component';
+import { IcecreamListComponent } from './Component/icecream-list/icecream-list.component';
+import { authRolGuard } from './guards/auth-rol.guard';
 
 export type RoutesParams = 'login' | 'register' | 'home';
 
@@ -17,5 +20,7 @@ export const routes: Routes = [
     component: DriverComponent,
     canActivate: [authGuard],
   },
+  { path: 'icecream', component: IcecreamListComponent, canActivate: [authRolGuard] },
+
   { path: '**', component: LoginComponent },
 ];

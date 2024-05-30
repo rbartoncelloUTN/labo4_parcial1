@@ -25,7 +25,7 @@ export class NavbarComponent {
   }
 
   handleClickGoToAboutMe() {
-    this.router.navigate(['aboutMe']);
+    this.router.navigate(['icecream']);
   }
 
   handleLogout() {
